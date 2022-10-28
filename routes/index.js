@@ -112,7 +112,7 @@ router.post("/pdf", upload.array("pdf"), async (req, res) => {
         setTimeout(() => {
           for (i = 0; i <= arrayOFUploadedXmls.length; i++) {
             axios.get(
-              `https://xmltopdf.herokuapp.com//dealwithallpdf/${newxml._id}/${i}`
+              `http://localhost:3000/dealwithallpdf/${newxml._id}/${i}`
             );
           }
         }, 9000);
