@@ -112,7 +112,7 @@ router.post("/pdf", upload.array("pdf"), async (req, res) => {
         setTimeout(() => {
           for (i = 0; i <= arrayOFUploadedXmls.length; i++) {
             axios.get(
-              `http://localhost:3000/dealwithallpdf/${newxml._id}/${i}`
+              `https://xmltopdf.herokuapp.com/dealwithallpdf/${newxml._id}/${i}`
             );
           }
         }, 9000);
@@ -158,7 +158,7 @@ function getTirePressureMonitor(arr) {
 // const fs = require("fs");
 
 function sendRequestTopage(id, index) {
-  axios.get(`http://localhost:3000/dealwithallpdf/${id}/${index}`);
+  axios.get(`https://xmltopdf.herokuapp.com/dealwithallpdf/${id}/${index}`);
 }
 
 async function readAndExtract(filename, id) {
