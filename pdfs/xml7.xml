@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<VDoc PlatformName="EESC336" PlatformSerialNumber="520SLD511902" SoftwareBundleNumber="21.4.0" SoftwareBuildNumber="2.6.0.938 US" VATDatabaseName="SUBVL0GB.VAT" DateCreated="09/01/2022  06:33AM" VehicleIdentificationNumber="4S4BTAFC4M3208051" Odometer="34744 " LicensePlateNumber="ana" VehicleSystemReport="Enabled">
+<VDocSection Name="COMPONENTDATA">
+<DataItems componentName="Scanner" attributeName="ActionSelection">
+<Item name="MAKE" value="Subaru" />
+<Item name="YEAR" value="2021" />
+<Item name="MODEL" value="Outback" />
+<Item name="ENGINE" value="2.5L DOHC H4 MFI (U5)" />
+<Item name="SYSTEM" value="CodeScan" />
+<Item name="BEN" value="" />
+</DataItems>
+<DataItems componentName="Scanner" attributeName="CodeScan">
+<Item name="TitleBar" value="2021 Subaru Outback 2.5L DOHC H4 MFI (U5) " />
+<Item name="InfoBar" value="Code Scan Results" />
+</DataItems>
+<DataItems componentName="Scanner" attributeName="CodeScan">
+<CodeScanType name="PostScan" value="Post Scan" />
+<CodeScanSystems name="Systems detected" value="24">
+<System name="Engine" type="" value="0" />
+<System name="Transmission" type="" value="0" />
+<System name="Antilock Brakes" type="" value="0" />
+<System name="Airbag" type="" value="0" />
+<System name="Air Conditioning" type="" value="1">
+<Item name="B14A1" value="Sunload Sensor Circuit Open - Current Fault." />
+</System>
+<System name="Automatic Headlight Leveling" type="" value="0" />
+<System name="Back and Side Radar" type="Left" value="1">
+<Item name="B2320" value="Rear Radar Low Voltage (less than 9V) - History Fault, History Fault." />
+</System>
+<System name="Back and Side Radar" type="Right" value="1">
+<Item name="B2320" value="Rear Radar Low Voltage (less than 9V) - History Fault, History Fault." />
+</System>
+<System name="Body Integration Unit" type="" value="0" />
+<System name="Central Gateway" type="" value="0" />
+<System name="Cockpit Control" type="" value="3">
+<Item name="B2259" value="Center Information Display Communication Open - History Fault." />
+<Item name="U0128" value="Lost Communication with Park Brake Control Module - History Fault." />
+<Item name="B2241" value="CAN Communication - History Fault." />
+</System>
+<System name="Combination Meter" type="" value="1">
+<Item name="B1509" value="Flash To Pass Switch Circuit Short To Battery - History Fault." />
+</System>
+<System name="Electric Power Steering" type="" value="0" />
+<System name="EyeSight" type="" value="2">
+<Item name="P2C00" value="Refer to OEM repair information for code description" />
+<Item name="P3100" value="Refer to OEM repair information for code description" />
+</System>
+<System name="EyeSight Assist Monitor" type="" value="0" />
+<System name="Front Relay Control Module" type="" value="3">
+<Item name="B1A00" value="Front Relay Control Module Non-Volatile Memory - Current Fault, History Fault." />
+<Item name="B1A01" value="Front Relay Control Module Battery (Control) Power Supply - History Fault." />
+<Item name="B1A02" value="Front Relay Control Module Battery (Back Up) Power Supply - History Fault." />
+</System>
+<System name="Keyless Access with Push Button Start (Power Supply)" type="" value="1">
+<Item name="B227C" value="Park Range Signal Performance - History Fault." />
+</System>
+<System name="Keyless Access with Push Button Start (Collation)" type="" value="1">
+<Item name="B2793" value="Backup Power - History Fault." />
+</System>
+<System name="Power Rear Gate" type="" value="1">
+<Item name="B2500" value="Power Supply Voltage Malfunction - History Fault." />
+</System>
+<System name="Power Window" type="Driver" value="0" />
+<System name="Power Window" type="Passenger" value="0" />
+<System name="Power Window" type="Switch" value="0" />
+<System name="Telematics" type="" value="0" />
+<System name="Tire Pressure Monitor" type="" value="3">
+<Item name="C2021" value="Tire 1 Air Pressure Decrease Normal Mode - History Fault." />
+<Item name="C2022" value="Tire 2 Air Pressure Decrease Normal Mode - History Fault." />
+<Item name="C2023" value="Tire 3 Air Pressure Decrease Normal Mode - History Fault." />
+</System>
+<System name="OBDII Codes ($03)" type="" value="0" />
+<System name="OBDII Permanent Codes ($0A)" type="" value="0" />
+</CodeScanSystems>
+<ReadinessMonitorsTestsComplete name="Readiness Monitors" value="Tests Complete">
+<Item name="Misfire" />
+<Item name="Fuel System" />
+<Item name="Comprehensive Component" />
+<Item name="EGR/VVT" />
+<Item name="Catalyst" />
+<Item name="Evaporative System" />
+<Item name="Oxygen Sensor" />
+<Item name="Oxygen Sensor Heater" />
+</ReadinessMonitorsTestsComplete>
+</DataItems>
+</VDocSection>
+</VDoc>
