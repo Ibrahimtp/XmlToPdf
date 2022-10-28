@@ -10,7 +10,7 @@ var usersRouter = require("./routes/users");
 // "mongodb+srv://ibrahim:WJgo0lnPPZjsQhRs@draganddrop.w4gluc5.mongodb.net/?retryWrites=true&w=majority"
 // ("mongodb+srv://ibrahim:WJgo0lnPPZjsQhRs@draganddrop.w4gluc5.mongodb.net/?retryWrites=true&w=majority");
 var app = express();
-mongoose.connect("mongodb://127.0.01.:27017/xml").then(() => {
+mongoose.connect("mongodb+srv://ibrahim:WJgo0lnPPZjsQhRs@draganddrop.w4gluc5.mongodb.net/?retryWrites=true&w=majority").then(() => {
   console.log("connected");
 });
 // view engine setup
